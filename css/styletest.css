@@ -1,0 +1,107 @@
+.masthead{
+	color:red;
+	font-size: 1.2em;
+	font-family: serif;
+	width: 20em;
+	margin: 0 auto;
+}
+
+
+.first-section {
+  display: inline-block;
+  width: 10em;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding-left: 25em;
+  font-size: 1.2em;
+  font-family: inherit;
+
+}
+
+.first-section > input{
+  border: 0.15em solid black;
+  width: 22em;
+  height: 3em;
+  font-size: 1em;
+}
+
+.break-line{
+	margin-left: 4em;
+	margin-right: 4em;
+	margin-top: 2em;
+	border: 0.1em solid black;
+}
+
+.list-design >li{
+ list-style-type: none;
+ display: inline-block;
+}
+
+.list-design > li >form{
+  float:right;
+}
+
+.list-design >li >button{
+  border-radius: 25%;
+
+}
+
+.button-margin{
+  margin-left: 25em;
+}
+
+.list-form{
+  
+  margin-left: 2em;
+  
+}
+
+.list-form > input{
+  width: 30em;
+  height: 3em;
+  border: 0.2em solid black;
+ 
+  margin: 0 auto;
+  font-size: 1em;
+}
+
+
+
+@media only screen and (min-width: 550px) and (max-width: 1050px) { 
+
+.masthead{
+  color:black;
+  font-size: 1em;
+}
+
+.break-line{
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 6em;
+  margin-bottom: 10em;
+  }
+
+.first-section {
+  padding-left: 18em;
+  font-size: 1em; 
+  margin-top: 5em;
+}
+
+.first-section > input{
+  width: 16em;
+  height: 3em;
+  border: 0.5em solid black;
+}
+
+.button-margin{
+  margin-left: 11em;
+}
+
+.list-form > input{
+  width: 20em;
+  
+}
+}
+
+
+
